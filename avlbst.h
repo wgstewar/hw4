@@ -268,7 +268,6 @@ void AVLTree<Key, Value>::insert (const std::pair<const Key, Value> &new_item)
     // TODO
     if (static_cast<AVLNode<Key, Value>*>(this->root_) == NULL)
 	{
-		//std::cout << "entered and key is " << (&new_item)->first << std::endl;
 		AVLNode<Key, Value>* insertroot = new AVLNode<Key, Value>(new_item.first, new_item.second, NULL);
 		this->root_ = static_cast<Node<Key, Value>*>(insertroot);
 		return;
