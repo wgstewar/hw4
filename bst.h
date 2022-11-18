@@ -388,7 +388,6 @@ template<typename Key, typename Value>
 void BinarySearchTree<Key, Value>::print() const
 {
     printRoot(root_);
-    std::cout << "\n";
 }
 
 /**
@@ -464,7 +463,6 @@ void BinarySearchTree<Key, Value>::insert(const std::pair<const Key, Value> &key
   // TODO
 	if (this->root_ == NULL)
 	{
-		//std::cout << "entered and key is " << (&keyValuePair)->first << std::endl;
 		Node<Key, Value>* insertroot = new Node<Key, Value>(keyValuePair.first, keyValuePair.second, NULL);
 		this->root_ = insertroot;
 		return;

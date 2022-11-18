@@ -1,7 +1,7 @@
 #include <iostream>
 #include <map>
-#include <bst.h>
-#include <avlbst.h>
+#include "bst.h"
+#include "avlbst.h"
 
 using namespace std;
 
