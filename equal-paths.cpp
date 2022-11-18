@@ -6,6 +6,7 @@ using namespace std;
 // You may add any prototypes of helper functions here
 int equalPathsHelper(Node * root);
 
+
 bool equalPaths(Node * root)
 {
     // Add your code below
