@@ -81,5 +81,3 @@ avlbst.h.gch
 bst.h.gch
 equal-paths.h.gch
 print_bst.h.gch
-equal-paths-test.cpp
-bst-test.cpp
